@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Palette Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2>Color Palette Generator</h2>
+    
+    <div id="popup">#FF0000 has been copied.</div>
+
+    <div class="palette-container">
+        <ul class="palette">
+            <li class="color-container" onclick="color(0);">
+                <div class="color" id="color-one">&nbsp;</div>
+                <p class="value">#00FFFF</p>
+            </li>
+            <li class="color-container" onclick="color(1);">
+                <div class="color" id="color-two">&nbsp;</div>
+                <p class="value">#2F4F4F</p>
+            </li>
+            <li class="color-container" onclick="color(2);">
+                <div class="color" id="color-three">&nbsp;</div>
+                <p class="value">#DB7093</p>
+            </li>
+            <li class="color-container" onclick="color(3);">
+                <div class="color" id="color-four">&nbsp;</div>
+                <p class="value">#20B2AA</p>
+            </li>
+            <li class="color-container" onclick="color(4);">
+                <div class="color" id="color-five">&nbsp;</div>
+                <p class="value">#9370DB</p>
+            </li>
+        </ul>
+    </div>
+
+    <button class="btn" id="generator">Generate Palette</button>
+</body>
+<script src="script.js"></script>
+</html>
